@@ -41,6 +41,9 @@ const Board = () => {
                 setWinner(isNextX ? 'x' : 'o');
             }
         });
+        if (winner === '' && board.every((value) => value !== 0)) {
+            setWinner('DROW');
+        }
     };
 
     useEffect(() => {
