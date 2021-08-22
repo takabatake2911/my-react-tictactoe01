@@ -1,0 +1,20 @@
+.next-turn {
+    margin: 3% 0 3%;
+}
+.board {
+    margin: 0 auto;
+    font-size: 0px;
+    width: 500px;
+    height: 500px;
+}
+
+.retry-button {
+    margin-top: 2%;
+    font-size: 50px;
+    width: 10em;
+    height: 2em;
+    background-color: #3a3;
+}
+.retry-button:hover {
+    background-color: #3f3;
+}

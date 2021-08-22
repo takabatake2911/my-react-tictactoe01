@@ -1,0 +1,8 @@
+.circle {
+    margin: 10%;
+    width: 80%;
+    height: 80%;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 5px solid #000;
+}
